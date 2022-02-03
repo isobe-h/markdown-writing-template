@@ -1,0 +1,13 @@
+{
+  "pasteImage.path": "${currentFileDir}/images/${currentFileNameWithoutExt}",
+  "markdown.extension.preview.autoShowPreviewToSide": false,
+  "markdownShortcuts.languages": ["markdown"],
+  "textlint.autoFixOnSave": false,
+  "markdownlint.config": {
+    "MD045": false
+  },
+  "[markdown]": {
+    "editor.quickSuggestions": true,
+    "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
+  }
+}

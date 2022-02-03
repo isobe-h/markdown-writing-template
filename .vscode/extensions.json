@@ -1,0 +1,13 @@
+{
+    "recommendations": [
+        "stevensona.character-count",
+        "sgryjp.japanese-word-handler",
+        "yzhang.markdown-all-in-one",
+        "mdickin.markdown-shortcuts",
+        "davidanson.vscode-markdownlint",
+        "gera2ld.markmap-vscode",
+        "mushan.vscode-paste-image",
+        "pdconsec.vscode-print",
+        "taichi.vscode-textlint"
+    ]
+}
