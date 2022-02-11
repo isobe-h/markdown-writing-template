@@ -9,5 +9,24 @@
   "[markdown]": {
     "editor.quickSuggestions": true,
     "editor.defaultFormatter": "DavidAnson.vscode-markdownlint"
-  }
+  },
+    "highlight.decorations": {
+    "rangeBehavior": 3
+  },
+  "highlight.regexes": {
+    "(あの|この|その|それ|といった|けれど|しかし|そして|したがって|だから|そこで|すると|そうすれば|でも|ところが|のに|かかわらず|また|および|かつ|加えて)": {
+      "regexFlags": "g", // Flags used when building this regex
+      "filterLanguageRegex": "markdown", // Apply only if current file's language matches this regex. Requires double escaping
+      "filterFileRegex": ".*\\.md", // Apply only if the current file's path matches this regex. Requires double escaping
+      "decorations": [
+        // Decoration options to apply to the capturing groups
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        } // Decoration options to apply to the first capturing group, in this case "//TODO"
+      ]
+    }
+  },
+  "highlight.maxMatches": 250
 }

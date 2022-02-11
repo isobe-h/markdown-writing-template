@@ -8,6 +8,7 @@
         "gera2ld.markmap-vscode",
         "mushan.vscode-paste-image",
         "pdconsec.vscode-print",
-        "taichi.vscode-textlint"
+        "taichi.vscode-textlint",
+        "fabiospampinato.vscode-highlight"
     ]
 }
